@@ -1,0 +1,1616 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,q,r,s,t,u,v,w,y,z,x,p,a1,b1,c1,d1,e1,f1,g1,h1,i1,j1,k1,l1,m1,n1,o1,p1,q1,r1,s1,t1,u1,v1,w1,x1,y1,z1,a2,b2,c2,d2,e2,f2,g2,h2,i2,j2,k2,l2,m2,n2,o2,p2,q2,r2,s2,t2,u2,v2,w2,x2,y2,z2,a3,b3,c3,d3,e3,f3,g3,h3,i3,j3,k3,l3,m3,n3,o3,q3,r3,s3,t3,u3,v3,w3,y3,z3,x3,p3,a4,b4,c4,d4,e4,f4,g4,h4,i4,j4,k4,l4,m4,n4,o4,q4,r4,s4,t4,u4,v4,w4,y4,z4,x4,p4,a5,b5,c5,d5,e5,f5,g5,h5,i5,j5,k5,l5,m5,n5,o5,q5,r5,s5,t5,u5,v5,w5,y5,z5,x5,p5,a7,b7,c7,d7,e7,f7,g7,h7,i7,j7,k7,l7,m7,n7,o7,q7,r7,s7,t7,u7,v7,w7,y7,z7,x7,p7,a9,b9,c9,d9,e9,f9,g9,h9,i9,j9,k9,l9,m9,n9,o9,q9,r9,s9,t9,u9,v9,w9,y9,z9,x9,p9,a11,b11,c11,d11,e11,f11,g11,h11,i11,j11,k11,l11,m11,n11,o11,q11,r11,s11,t11,u11,v11,w11,y11,z11,x11,p11;
+float a6,b6,c6,d6,e6,f6,g6,h6,i6,j6,k6,l6,m6,n6,o6,q6,r6,s6,t6,u6,v6,w6,y6,z6,x6,p6,a8,b8,c8,d8,e8,f8,g8,h8,i8,j8,k8,l8,m8,n8,o8,q8,r8,s8,t8,u8,v8,w8,y8,z8,x8,p8,a10,b10,c10,d10,e10,f10,g10,h10,i10,j10,k10,l10,m10,n10,o10,q10,r10,s10,t10,u10,v10,w10,y10,z10,x10,p10,a12,b12,c12,d12,e12,f12,g12,h12,i12,j12,k12,l12,m12,n12,o12,q12,r12,s12,t12,u12,v12,w12,y12,z12,x12,p12;
+clrscr();
+printf("\n Welcome to Dhaman Infotech Solutions");
+printf("\n Press 1 for Mobiles");
+printf("\n Press 2 for Laptops");
+scanf("%d",&n);
+
+if(n==1)
+{
+{
+printf("\n Press 1 for Keypad Phones");
+printf("\n Press 2 for Smart Phones");
+printf("\n Press 3 for Tablets");
+scanf("%d",&a);
+}
+
+if(a==1)
+{
+{
+printf("\n Select Brand");
+printf("\n Press 1 for Nokia");
+printf("\n Press 2 for Samsung");
+printf("\n Press 3 for Lenovo");
+scanf("%d",&b);
+}
+
+if(b==1)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Nokia 0001");
+printf("\n Press 2 for Nokia 0002");
+printf("\n Press 3 for Nokia 0003");
+scanf("%d",&c);
+}
+
+if(c==1)
+{
+{
+printf("\n Price 20");
+printf("\n enter quantity");
+scanf ("%d",&a1);
+
+
+
+
+
+a2=20*a1;
+a5=(a2*6)/100;
+a6=a2+a5;
+printf("%f",a6);
+
+
+if(a6>100)
+{
+printf("\n You have enrolled an discount of5%");
+a9 =(a6*5)/100;
+a10=a6-a9;
+printf("\n Final price %f",a10);
+
+}
+else
+{
+printf("\n Final price %f",a6);
+}
+printf("\n Enter X to go to Payment Portal");
+}
+
+}
+
+if(c==2)
+{
+{
+printf("\n Price 25");
+printf("\n enter quantity");
+scanf ("%d",&b1);
+
+b2=25*b1;
+b5=(b2*6)/100;
+b6=b2+b5;
+printf("%f",b6);
+printf("\n Enter X to go to Payment Portal ");
+if(b6>100)
+{
+printf("\n You have enrolled an discount of5%");
+b9 =(b6*5)/100;
+b10=b6-b9;
+printf("\n Final price %f",b10);
+
+}
+else
+{
+printf("\n Final price %f",b6);
+}
+
+}
+
+}
+
+if(c==3)
+{
+{
+printf("\n Price 30");
+printf("\n enter quantity");
+scanf ("%d",&c1);
+c2=30*c1;
+c5=(c2*6)/100;
+c6=c2+c5;
+printf("%f",c6);
+printf("\n Enter X to go to Payment Portal");
+
+if(c6>100)
+{
+printf("\n You have enrolled an discount of5%");
+c9 =(c6*5)/100;
+c10=c6-c9;
+printf("\n Final price %f",c10);
+
+}
+else
+{
+printf("\n Final price %f",c6);
+}
+
+
+
+
+
+
+}
+}
+}
+
+if(b==2)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Samsung 0001");
+printf("\n Press 2 for Samsung 0002");
+printf("\n Press 3 for Samsung 0003");
+scanf("%d",&d);
+}
+
+if(d==1)
+{
+{
+printf("\n Price 20");
+printf("\n enter quantity");
+scanf ("%d",&d1);
+d2=20*d1;
+d5=(d2*6)/100;
+d6=d2+d5;
+printf("%f",d6);
+
+if(d6>100)
+{
+printf("\n You have enrolled an discount of5%");
+d9 =(d6*5)/100;
+d10=d6-d9;
+printf("\n Final price %f",d10);
+
+}
+else
+{
+printf("\n Final price %f",d6);
+}
+
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(d==2)
+{
+{
+printf("\n Price 25");
+printf("\n enter quantity");
+scanf ("%d",&e1);
+e2=25*e1;
+e5=(e2*6)/100;
+e6=e2+e5;
+printf("%f",e6);
+
+if(e6>100)
+{
+printf("\n You have enrolled an discount of5%");
+e9 =(e6*5)/100;
+e10=e6-e9;
+printf("\n Final price %f",e10);
+
+}
+else
+{
+printf("\n Final price %f",e6);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(d==3)
+{
+{
+printf("\n Price 30");
+printf("\n enter quantity");
+scanf ("%d",&f1);
+f2=30*f1;
+f5=(f2*6)/100;
+f6=f2+f5;
+printf("%f",f6);
+
+if(f6>100)
+{
+printf("\n You have enrolled an discount of5%");
+f9 =(f6*5)/100;
+f10=f6-f9;
+printf("\n Final price %f",f10);
+
+}
+else
+{
+printf("\n Final price %f",f6);
+}
+
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+
+if(b==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Lenovo 0001");
+printf("\n Press 2 for Lenovo 0002");
+printf("\n Press 3 for Lenovo 0003");
+scanf("%d",&e);
+}
+
+if(e==1)
+{
+{
+printf("\n Price 20");
+printf("\n enter quantity");
+scanf ("%d",&g1);
+g2=20*g1;
+g5=(g2*6)/100;
+g6=g2+g5;
+printf("%f",g6);
+
+if(g6>100)
+{
+printf("\n You have enrolled an discount of5%");
+g9 =(g6*5)/100;
+g10=g6-g9;
+printf("\n Final price %f",g10);
+
+}
+else
+{
+printf("\n Final price %f",g6);
+}
+printf("\n Enter X to go to Payment Portal");
+}
+}
+
+if(e==2)
+
+{
+{
+printf("\n Price 25");
+
+printf("\n enter quantity");
+scanf ("%d",&h1);
+h2=25*h1;
+h5=(h2*6)/100;
+h6=h2+h5;
+printf("%f",h6);
+
+if(h6>100)
+{
+printf("\n You have enrolled an discount of5%");
+h9 =(h6*5)/100;
+h10=h6-h9;
+printf("\n Final price %f",h10);
+
+}
+else
+{
+printf("\n Final price %f",h6);
+}
+printf("/n Enter X to go to payment portal");
+}
+}
+
+if(e==3)
+{
+{
+printf("\n Price 30");
+printf("\n enter quantity");
+scanf ("%d",&i1);
+i2=30*i1;
+i5=(i2*6)/100;
+i6=i2+i5;
+printf("%f",i6);
+
+if(i6>100)
+{
+printf("\n You have enrolled an discount of5%");
+i9 =(i6*5)/100;
+i10=i6-i9;
+printf("\n Final price %f",i10);
+
+}
+else
+{
+printf("\n Final price %f",i6);
+}
+
+
+printf("\n Enter X to go to Payment Portal");
+}
+}
+}
+}
+
+if(a==2)
+{
+{
+printf("\n Select Brand");
+printf("\n Press 1 for Apple");
+printf("\n Press 2 for Samsung");
+printf("\n Press 3 for Vivo");
+scanf("%d",&f);
+}
+
+if(f==1)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Apple 0001");
+printf("\n Press 2 for Apple 0002");
+printf("\n Press 3 for Apple 0003");
+scanf("%d",&g);
+}
+
+if(g==1)
+
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&j1);
+j2=200*j1;
+j5=(j2*6)/100;
+j6=j2+j5;
+printf("%f",j6);
+
+if(j6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+j9 =(j6*5)/100;
+j10=j6-j9;
+printf("\n Final price %f",j10);
+
+}
+else
+{
+printf("\n Final price %f",j6);
+}
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(g==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&k1);
+k2=250*k1;
+k5=(k2*6)/100;
+k6=k2+k5;
+printf("%f",k6);
+if(k6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+k9 =(k6*5)/100;
+k10=k6-k9;
+printf("\n Final price %f",k10);
+
+}
+else
+{
+printf("\n Final price %f",k6);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(g==3)
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&l1);
+l2=300*l1;
+l5=(l2*6)/100;
+l6=l2+l5;
+printf("%f",l6);
+if(l6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+l9 =(l6*5)/100;
+l10=l6-l9;
+printf("\n Final price %f",l10);
+
+}
+else
+{
+printf("\n Final price %f",l6);
+}
+
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(f==2)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Samsung 0001");
+printf("\n Press 2 for Samsung 0002");
+printf("\n Press 3 for Samsung 0003");
+scanf("%d",&h);
+}
+
+if(h==1)
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&m1);
+m2=200*m1;
+m5=(m2*6)/100;
+m6=m2+m5;
+printf("%f",m6);
+if(m6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+m9 =(m6*5)/100;
+m10=m6-m9;
+printf("\n Final price %f",m10);
+
+}
+else
+{
+printf("\n Final price %f",m6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(h==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&n1);
+n2=250*n1;
+n5=(n2*6)/100;
+n6=n2+n5;
+printf("%f",n6);
+if(n6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+n9 =(n6*5)/100;
+n10=n6-n9;
+printf("\n Final price %f",n10);
+
+}
+else
+{
+printf("\n Final price %f",n6);
+}
+
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(h==3)
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&o1);
+o2=300*o1;
+o5=(o2*6)/100;
+o6=o2+o5;
+printf("%f",o6);
+if(o6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+o9 =(o6*5)/100;
+o10=o6-o9;
+printf("\n Final price %f",o10);
+
+}
+else
+{
+printf("\n Final price %f",o6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(f==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Vivo 0001");
+printf("\n Press 2 for Vivo 0002");
+printf("\n Press 3 for Vivo 0003");
+scanf("%d",&i);
+}
+
+if(i==1)
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&p1);
+p2=200*p1;
+p5=(p2*6)/100;
+p6=p2+p5;
+printf("%f",p6);
+
+if(p6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+p9 =(p6*5)/100;
+p10=p6-p9;
+printf("\n Final price %f",p10);
+
+}
+else
+{
+printf("\n Final price %f",p6);
+}
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(i==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&q1);
+q2=250*q1;
+q5=(q2*6)/100;
+q6=q2+q5;
+printf("%f",q6);
+if(q6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+q9 =(q6*5)/100;
+q10=q6-q9;
+printf("\n Final price %f",q10);
+
+}
+else
+{
+printf("\n Final price %f",q6);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(i==3)
+
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&r1);
+r2=300*r1;
+r5=(r2*6)/100;
+r6=r2+r5;
+printf("%f",r6);
+
+if(r6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+r9 =(r6*5)/100;
+r10=r6-r9;
+printf("\n Final price %f",r10);
+
+}
+else
+{
+printf("\n Final price %f",r6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+}
+
+if(a==3)
+{
+{
+printf("\n Select Brand");
+printf("\n Press 1 for Apple");
+printf("\n Press 2 for Samsung");
+printf("\n Press 3 for Lenovo");
+scanf("%d",&j);
+}
+
+if(j==1)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Apple 0001");
+printf("\n Press 2 for Apple 0002");
+printf("\n Press 3 for Apple 0003");
+scanf("%d",&k);
+}
+
+if(k==1)
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&s1);
+s2=200*s1;
+s5=(s2*6)/100;
+s6=s2+s5;
+printf("%f",s6);
+if(s6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+s9 =(s6*5)/100;
+s10=s6-s9;
+printf("\n Final price %f",s10);
+
+}
+else
+{
+printf("\n Final price %f",s6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(k==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&t1);
+t2=250*t1;
+t5=(t2*6)/100;
+t6=t2+t5;
+printf("%f",t6);
+if(t6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+t9 =(t6*5)/100;
+t10=t6-t9;
+printf("\n Final price %f",t10);
+
+}
+else
+{
+printf("\n Final price %f",t6);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(k==3)
+
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&u1);
+u2=300*u1;
+u5=(u2*6)/100;
+u6=u2+u5;
+printf("%f",u6);
+if(u6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+u9 =(u6*5)/100;
+u10=u6-u9;
+printf("\n Final price %f",u10);
+
+}
+else
+{
+printf("\n Final price %f",u6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(j==2)
+
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Samsung 0001");
+printf("\n Press 2 for Samsung 0002");
+printf("\n Press 3 for Samsung 0003");
+scanf("%d",&l);
+}
+
+if(l==1)
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&v1);
+
+v2=200*v1;
+v5=(v2*6)/100;
+v6=v2+v5;
+printf("%f",v6);
+if(v6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+v9 =(v6*5)/100;
+v10=v6-v9;
+printf("\n Final price %f",v10);
+
+}
+else
+{
+printf("\n Final price %f",v6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(l==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&w1);
+w2=250*w1;
+w5=(w2*6)/100;
+w6=w2+w5;
+printf("%f",w6);
+if(w6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+w9 =(w6*5)/100;
+w10=w6-w9;
+printf("\n Final price %f",w10);
+
+}
+else
+{
+printf("\n Final price %f",w6);
+}
+
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(l==3)
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&x1);
+x2=300*x1;
+x5=(x2*6)/100;
+x6=x2+x5;
+printf("%f",x6);
+
+if(x6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+x9 =(x6*5)/100;
+x10=x6-x9;
+printf("\n Final price %f",x10);
+
+}
+else
+{
+printf("\n Final price %f",x6);
+}
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+
+}
+
+if(j==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Lenovo 0001");
+printf("\n Press 2 for Lenovo 0002");
+printf("\n Press 3 for Lenovo 0003");
+scanf("%d",&m);
+}
+
+if(m==1)
+{
+{
+printf("\n Price 200");
+printf("\n enter quantity");
+scanf ("%d",&y1);
+y2=200*y1;
+y5=(y2*6)/100;
+y6=y2+y5;
+printf("%f",y6);
+if(y6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+y9 =(y6*5)/100;
+y10=y6-y9;
+printf("\n Final price %f",y10);
+
+}
+else
+{
+printf("\n Final price %f",y6);
+}
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(m==2)
+{
+{
+printf("\n Price 250");
+printf("\n enter quantity");
+scanf ("%d",&z1);
+z2=250*z1;
+z5=(z2*6)/100;
+z6=z2+z5;
+printf("%f",z6);
+if(z6>1000)
+{
+printf("\n You have enrolled an discount of5%");
+z9 =(z6*5)/100;
+z10=z6-z9;
+printf("\n Final price %f",z10);
+
+}
+else
+{
+printf("\n Final price %f",z6);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+
+
+
+
+
+
+
+
+
+if(m==3)
+{
+{
+printf("\n Price 300");
+printf("\n enter quantity");
+scanf ("%d",&a3);
+a4=300*a3;
+a7=(a4*8)/100;
+a8=a4+a7;
+printf("%f",a8);
+
+
+if(a8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+a11 =(a8*6)/100;
+a12=a8-a11;
+printf("\n Final price %f",a12);
+
+}
+else
+{
+printf("\n Final price %f",a8);
+}
+
+
+
+
+
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+}
+
+}
+
+
+if(n==2)
+{
+{
+printf("\n Press 1 for Lightweight Laptop");
+printf("\n Press 2 for Gaming Laptop");
+printf("\n Press 3 for Macbook");
+scanf("%d",&o);
+}
+
+if(o==1)
+{
+{
+printf("\n Select Brand");
+printf("\n Press 1 for Redmi");
+printf("\n Press 2 for Samsung");
+printf("\n Press 3 for HP");
+scanf("%d",&q);
+}
+
+if(q==1)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Redmi 0001");
+printf("\n Press 2 for Redmi 0002");
+printf("\n Press 3 for Redmi 0003");
+scanf("%d",&r);
+}
+
+if(r==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&b3);
+b4=500*b3;
+b7=(b4*8)/100;
+b8=b4+b7;
+printf("%f",b8);
+
+if(b8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+b11=(b8*6)/100;
+b12=b8-b11;
+printf("\n Final price %f",b12);
+
+}
+else
+{
+printf("\n Final price %f",b8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(r==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&c3);
+c4=650*c3;
+c7=(c4*8)/100;
+c8=c4+c7;
+printf("%f",c8);
+
+if(c8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+c11=(c8*6)/100;
+c12=c8-c11;
+printf("\n Final price %f",c12);
+
+}
+else
+{
+printf("\n Final price %f",c8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(r==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&d3);
+d4=700*d3;
+d7=(d4*8)/100;
+d8=d4+d7;
+printf("%f",d8);
+
+
+if(d8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+d11=(d8*6)/100;
+d12=d8-d11;
+printf("\n Final price %f",d12);
+
+}
+else
+{
+printf("\n Final price %f",d8);
+}
+
+
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(q==2)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for Samsung 0001");
+printf("\n Press 2 for Samsung 0002");
+printf("\n Press 3 for Samsung 0003");
+scanf("%d",&s);
+}
+
+if(s==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&e3);
+e4=500*e3;
+e7=(e4*8)/100;
+e8=e4+e7;
+printf("%f",e8);
+
+if(e8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+e11=(e8*6)/100;
+e12=e8-e11;
+printf("\n Final price %f",e12);
+
+}
+else
+{
+printf("\n Final price %f",e8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(s==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&f3);
+f4=650*f3;
+f7=(f4*8)/100;
+f8=f4+f7;
+printf("%f",f8);
+
+if(f8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+f11=(f8*6)/100;
+f12=f8-f11;
+printf("\n Final price %f",f12);
+
+}
+else
+{
+printf("\n Final price %f",f8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(s==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&g3);
+g4=700*g3;
+g7=(g4*8)/100;
+g8=g4+g7;
+printf("%f",g8);
+
+if(g8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+g11=(g8*6)/100;
+g12=g8-g11;
+printf("\n Final price %f",g12);
+
+}
+else
+{
+printf("\n Final price %f",g8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(q==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for HP 0001");
+printf("\n Press 2 for HP 0002");
+printf("\n Press 3 for HP 0003");
+scanf("%d",&t);
+}
+
+if(t==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&h3);
+h4=500*h3;
+h7=(h4*8)/100;
+h8=h4+h7;
+printf("%f",h8);
+
+if(h8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+h11=(h8*6)/100;
+h12=h8-h11;
+printf("\n Final price %f",h12);
+
+}
+else
+{
+printf("\n Final price %f",h8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(t==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&i3);
+i4=650*i3;
+i7=(i4*8)/100;
+i8=i4+i7;
+printf("%f",i8);
+
+if(i8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+i11=(i8*6)/100;
+i12=i8-i11;
+printf("\n Final price %f",i12);
+
+}
+else
+{
+printf("\n Final price %f",i8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(t==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&j3);
+j4=700*j3;
+j7=(j4*8)/100;
+j8=j4+j7;
+printf("%f",j8);
+
+if(j8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+j11=(j8*6)/100;
+j12=j8-j11;
+printf("\n Final price %f",j12);
+
+}
+else
+{
+printf("\n Final price %f",j8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+}
+
+if(o==2)
+{
+{
+printf("\n Select Brand");
+printf("\n Press 1 for ASUS");
+printf("\n Press 2 for ACER");
+printf("\n Press 3 for DELL");
+scanf("%d",&u);
+}
+
+if(u==1)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for ASUS 0001");
+printf("\n Press 2 for ASUS 0002");
+printf("\n Press 3 for ASUS 0003");
+scanf("%d",&v);
+}
+
+if(v==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&k3);
+k4=500*k3;
+k7=(k4*8)/100;
+k8=k4+k7;
+printf("%f",k8);
+
+if(k8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+k11=(k8*6)/100;
+k12=k8-k11;
+printf("\n Final price %f",k12);
+
+}
+else
+{
+printf("\n Final price %f",k8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(v==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&l3);
+l4=650*l3;
+l7=(l4*8)/100;
+l8=l4+l7;
+printf("%f",l8);
+
+if(l8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+l11=(l8*6)/100;
+l12=l8-l11;
+printf("\n Final price %f",l12);
+
+}
+else
+{
+printf("\n Final price %f",l8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(v==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&m3);
+m4=700*m3;
+m7=(m4*8)/100;
+m8=m4+m7;
+printf("%f",m8);
+
+if(m8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+m11=(m8*6)/100;
+m12=m8-m11;
+printf("\n Final price %f",m12);
+
+}
+else
+{
+printf("\n Final price %f",m8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+if(u==2)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for ACER 0001");
+printf("\n Press 2 for ACER 0002");
+printf("\n Press 3 for ACER 0003");
+scanf("%d",&w);
+}
+
+if(w==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&n3);
+n4=500*n3;
+n7=(n4*8)/100;
+n8=n4+n7;
+printf("%f",n8);
+
+if(n8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+n11=(n8*6)/100;
+n12=n8-n11;
+printf("\n Final price %f",n12);
+
+}
+else
+{
+printf("\n Final price %f",n8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+
+if(w==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&o3);
+o4=650*o3;
+o7=(o4*8)/100;
+o8=o4+o7;
+printf("%f",o8);
+
+if(o8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+o11=(o8*6)/100;
+o12=o8-o11;
+printf("\n Final price %f",o12);
+
+}
+else
+{
+printf("\n Final price %f",o8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(w==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&p3);
+p4=700*p3;
+p7=(p4*8)/100;
+p8=p4+p7;
+printf("%f",p8);
+
+if(p8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+p11=(p8*6)/100;
+p12=p8-p11;
+printf("\n Final price %f",p12);
+
+}
+else
+{
+printf("\n Final price %f",p8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+
+
+if(u==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for DEll 0001");
+printf("\n Press 2 for DEll 0002");
+printf("\n Press 3 for DELL 0003");
+scanf("%d",&p);
+}
+
+if(p==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&q3);
+q4=500*q3;
+q7=(q4*8)/100;
+q8=q4+q7;
+printf("%f",q8);
+
+if(q8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+q11=(q8*6)/100;
+q12=q8-q11;
+printf("\n Final price %f",q12);
+
+}
+else
+{
+printf("\n Final price %f",q8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(p==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&r3);
+r4=650*r3;
+r7=(r4*8)/100;
+r8=r4+r7;
+printf("%f",r8);
+
+if(r8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+r11=(r8*6)/100;
+r12=r8-r11;
+printf("\n Final price %f",r12);
+
+}
+else
+{
+printf("\n Final price %f",r8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(p==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&s3);
+s4=700*s3;
+s7=(s4*8)/100;
+s8=s4+s7;
+printf("%f",s8);
+
+if(s8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+s11=(s8*6)/100;
+s12=s8-s11;
+printf("\n Final price %f",s12);
+
+}
+else
+{
+printf("\n Final price %f",s8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+}
+
+
+if(o==3)
+{
+{
+printf("\n Select Model");
+printf("\n Press 1 for MACBOOK 0001");
+printf("\n Press 2 for MACBOOK 0002");
+printf("\n Press 3 for MACBOOK 0003");
+scanf("%d",&x);
+}
+
+if(x==1)
+{
+{
+printf("\n Price 500");
+printf("\n enter quantity");
+scanf ("%d",&t3);
+t4=500*t3;
+t7=(t4*8)/100;
+t8=t4+t7;
+printf("%f",t8);
+
+if(t8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+t11=(t8*6)/100;
+t12=t8-t11;
+printf("\n Final price %f",t12);
+
+}
+else
+{
+printf("\n Final price %f",t8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+
+if(x==2)
+{
+{
+printf("\n Price 650");
+printf("\n enter quantity");
+scanf ("%d",&u3);
+u4=650*u3;
+u7=(u4*8)/100;
+u8=u4+u7;
+printf("%f",u8);
+
+if(u8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+u11=(u8*6)/100;
+u12=u8-u11;
+printf("\n Final price %f",u12);
+
+}
+else
+{
+printf("\n Final price %f",u8);
+}
+printf("\n Enter 1 to go to Payment Portal ");
+}
+}
+
+if(x==3)
+{
+{
+printf("\n Price 700");
+printf("\n enter quantity");
+scanf ("%d",&v3);
+v4=700*v3;
+v7=(v4*8)/100;
+v8=v4+v7;
+printf("%f",v8);
+
+if(v8>1000)
+{
+printf("\n You have enrolled an discount of6%");
+v11=(v8*6)/100;
+v12=v8-v11;
+printf("\n Final price %f",v12);
+
+}
+else
+{
+printf("\n Final price %f",v8);
+}
+printf("\n Enter 1 to go to Payment Portal");
+}
+}
+}
+}
+
+printf("\n (Including gst)");
+printf("\n ************* Thank You ****************");
+
+
+
+getch();
+}
